@@ -1,83 +1,52 @@
-\# Diagramas de flujo con Mermaid
-
-
+# Diagramas de flujo con Mermaid
 
 Una forma accesible de crear diagramas de flujo.
 
-
-
-\## Introducción
-
-
+## Introducción
 
 Mermaid es una forma accesible que tenemos para crear diagramas de flujo.
 
+un diagrama de flujo es la representación gráfica de los pasos que debe seguir el algoritmo que vamos a diseñar para resolver un problema.
 
+Gracias a esta tecnología nosotros escribiremos el código y luego quien vea podrá ver el gráfico al que está acostumbrado y sabrá cuál es el procedimiento que pensamos diesñar.
 
-Un diagrama de flujo es la reperesentación gráfica de los pasos que vamos a dar para solucionar un problema.
+## Estructura básica
 
+Podríamos dividir el diagrama en tres partes: el tipo de diagrama, el diseño de los pasos y la conexión entre los pasos.
 
+### Tipo de diagrama
 
-Gracias a esta tecnología nosotros escribiremos el código en texto y luego se visulizará el gráfico para que quien vea sepa cuál es el proceso que estamos pensando para nuestro algoritmo.
+En la primera línea se pone el tipo de diagrama y, separado por un espacio, la orientación que tendrá.
 
+Trabajaremos con el tipo flowchart. Los valores posibles para la orientación siempre van en mayúsculas y son:
 
+- TD significa de arriba hacia abajo.
+- BT significa de abajo hacia arriba.
+- LR significa de izquierda a derecha.
+- RL significa de derecha a izquierda.
 
-\## Estructura básica
+### Diseño de los pasos
 
+En las siguientes líneas, con un nivel de indentación, escribiremos los pasos que hay que seguir. Cada paso va en una línea.
 
+El paso consta de un identificador y un texto encerrado entre símbolos.
 
-En la primera línea indicaremos el tipo de diagrama y, separado por un espacio, la orientación que tendrá. Trabajaremos con el tipo flowchart y sus posibles orientaciones son:
+El identificador sigue las mismas reglas que las variables en cualquier lenguaje de programación. Podemos usar nombres largos y significativos o podemos usar letras del abecedario que nosden un orden de lo que vamos haciendo.
 
+El texto encerrado entre símbolos es lo que se verá el pantalla. Se dibujará el símbolo y dentro de él irá el texto que escribamos. Estos símbolos representan distintas cosas como datos, operaciones, condiciones, etcétera. En el último apartado encontrarás el listado con los símbolos que vayamos utilizando.
 
+### Conexión entre pasos
 
-* TD significa de arriba hacia abajo.
-* \- BT significa de abajo hacia arriba.
-* \- LR significa de izquierd aa derecha.
-* \- RL significa de derecha a izquierda.
+Por último, y también con un nivel de indentación, debemos indicar cómo se conectan unos pasos con otros. En su versión más sencilla, pondremos el identificador de cada paso y una flecha que represente la unión con el identificador del siguiente paso. La flecha se escribe con dos guiones y el signo de mayor que.
 
-Las letras de cualquiera de estas orientaciones están en mayúsculas.
+## Programación secuencial
 
+Son problemas que se resuleven empezando por la primera línea de código y terminando por la última. Es decir, no hay saltos, repeticiones ni tomas de decisiones.
 
+## Listado de símbolos
 
-En las slguientes líneas, con un nivel de indentación, estructuramos los pasos a seguir. Escribiremos un paso por cada línea. Cada paso consta de:
+- Paréntesis y corchetes. Significa inicio o fin.
+- Corchetes y barras. Significa entrada o salida de datos.
+- Corchetes. Significa operación.
 
-
-
-* Un identificador.
-* \- Un texto encerrado entre diversos símbolos.
-
-Entre el nombre del identificador y el texto con símbolos no hay espacios.
-
-
-
-El nombre del identificador sigue las reglas que suelen seguir los nombres de variables en los lenguajes de programación, aunque hay quien utiliza las letras en orden alfabético para tener una sensación de orden.
-
-
-
-En cuanto al texto con símbolos, el texto es lo que se verá en pantalla y los símbolos hacen referencia al dibujo que tendrá ese paso en el diagrama de flujo. El símbolo dependerá de lo que queremos representar. Al final está el listado de símbolos.
-
-
-
-La última línea del diagrama contiene el orden en el que se ejecutarán los pasos que hemos descrito. Lo estableceremos escribiendo los identificadores en el orden en el que deben ir y los uniremos con flechas. Las flechas se escriben usando dos guiones y el signo de mayor que.
-
-
-
-A partir de aquí iremos poniendo ejemplos de los distintos tipos de programación.
-
-
-
-\## Programación secuencial
-
-
-
-Son problemas que se resuelven empezando por la primera línea del código y terminando por la última. Es decir, no hay ningún tipo de repetición ni toma de decisiones.
-
-
-
-\## Listado de símbolos
-
-
-
-* Paréntesis y corchetes. Significa inicio o fin.
-* \- Corchetes y barras. Significa entrada o salida de datos.
-* \- Corchetes. Significa operación.
+[Volver al índice dle repositorio](../README.md)

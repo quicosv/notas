@@ -1,11 +1,7 @@
-# notas
+# Notas
 
 Archivos de MarkDown con mis notas sobre programación.
 
+## Listado
 
-
-\## Listado
-
-
-
-* \[Creación de diagramas de flujo.](Mermaid/notas.md)
+ [Creación de diagramas de flujo.](Mermaid/notas.md)
