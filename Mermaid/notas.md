@@ -1,3 +1,5 @@
+<div lang="es">
+
 # Diagramas de flujo con Mermaid
 
 Una forma accesible de crear diagramas de flujo.
@@ -68,4 +70,5 @@ flowchart TD
 - Corchetes y barras. Significa entrada o salida de datos.
 - Corchetes. Significa operación.
 
-[Volver al índice dle repositorio](../README.md)
+[Volver al índice del repositorio](../README.md)
+</div>
