@@ -49,7 +49,7 @@ Recibir por teclado dos números enteros. Calcular la suma y el producto y mostr
 
 Así se ve el diagrama:
 
-```Mermaid
+```mermaid
 flowchart TD
     A([Inicio])
     B[/num1/]
