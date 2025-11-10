@@ -8,7 +8,7 @@ Mermaid es una forma accesible que tenemos para crear diagramas de flujo.
 
 un diagrama de flujo es la representación gráfica de los pasos que debe seguir el algoritmo que vamos a diseñar para resolver un problema.
 
-Gracias a esta tecnología nosotros escribiremos el código y luego quien vea podrá ver el gráfico al que está acostumbrado y sabrá cuál es el procedimiento que pensamos diesñar.
+Gracias a esta tecnología nosotros escribiremos el código y luego quien vea podrá ver el gráfico al que está acostumbrado y sabrá cuál es el procedimiento que pensamos diseñar.
 
 ## Estructura básica
 
@@ -41,7 +41,26 @@ Por último, y también con un nivel de indentación, debemos indicar cómo se c
 
 ## Programación secuencial
 
-Son problemas que se resuleven empezando por la primera línea de código y terminando por la última. Es decir, no hay saltos, repeticiones ni tomas de decisiones.
+Son problemas que se resuelven empezando por la primera línea de código y terminando por la última. Es decir, no hay saltos, repeticiones ni tomas de decisiones.
+
+### Ejemplo 1: Suma y producto
+
+Recibir por teclado dos números enteros. Calcular la suma y el producto y mostrar ambos resultados.
+
+Así se ve el diagrama:
+
+```Mermaid
+flowchart TD
+    A([Inicio])
+    B[/num1/]
+    C[/num2/]
+    D[suma = num1 + num2]
+    E[producto = num1 * num2]
+    F[/suma, producto/]
+    G([Fin])
+
+    A --> B --> C --> D --> E --> F --> G
+```
 
 ## Listado de símbolos
 
